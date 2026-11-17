@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.restservice.GreetingControllerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-17T12:22:31.426Z" hostname="IBM-BG7SR24" time="5.883">
+  <properties/>
+  <testcase name="noParamGreetingShouldReturnDefaultMessage()" classname="com.example.restservice.GreetingControllerTests" time="1.931"/>
+  <testcase name="paramGreetingShouldReturnTailoredMessage()" classname="com.example.restservice.GreetingControllerTests" time="0.022"/>
+  <system-out><![CDATA[12:22:31.662 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.restservice.GreetingControllerTests]: GreetingControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:22:31.838 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.restservice.RestServiceApplication for test class com.example.restservice.GreetingControllerTests
+12:22:31.948 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.restservice.GreetingControllerTests]: GreetingControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:22:31.953 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.restservice.RestServiceApplication for test class com.example.restservice.GreetingControllerTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.9)
+
+2026-11-17T12:22:32.597Z  INFO 182323 --- [    Test worker] c.e.restservice.GreetingControllerTests  : Starting GreetingControllerTests using Java 17.0.21.0.3 with PID 182323 (started by gauri in /home/gauri/projects/gs-rest-service/complete)
+2026-11-17T12:22:32.619Z  INFO 182323 --- [    Test worker] c.e.restservice.GreetingControllerTests  : No active profile set, falling back to 1 default profile: "default"
+2026-11-17T12:22:35.054Z  INFO 182323 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-11-17T12:22:35.068Z  INFO 182323 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-11-17T12:22:35.086Z  INFO 182323 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 12 ms
+2026-11-17T12:22:35.311Z  INFO 182323 --- [    Test worker] c.e.restservice.GreetingControllerTests  : Started GreetingControllerTests in 3.264 seconds (process running for 5.128)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
